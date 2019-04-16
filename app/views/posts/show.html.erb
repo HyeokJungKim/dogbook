@@ -1,0 +1,7 @@
+<h1> <%= @post.title %> </h1>
+<p> <%= @post.body %> </p>
+
+<p>
+  By: <%= link_to @post.dog.name, @post.dog %>
+  Created on: <%= @post.created_at.strftime("%I:%M%p, %m/%d/%Y") %>
+</p>
