@@ -1,8 +1,8 @@
-<h1> <%= @dog.name %> </h1>
-<h2> <%= @dog.catchphrase %> </h2>
 <img src=<%= @dog.image_url %>  alt=<%= @dog.name %> />
+<h2> <%= @dog.name %> </h2>
+<h3> <%= @dog.catchphrase %> </h3>
 
-<h1>Friends</h1>
+<h3>Friends</h3>
 <ul>
   <% @dog.buddies.each do |buddy| %>
     <li>
@@ -12,7 +12,7 @@
   <% end %>
 </ul>
 
-<h1>Posts</h1>
+<h3>Posts</h3>
 
 <ul>
   <% @dog.posts.each do |post| %>
