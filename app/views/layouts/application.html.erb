@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Dogbook</title>
+    <title>DogBook</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,10 +10,9 @@
   </head>
 
   <body>
-
+    <h1>DogBook🐕</h1>
     <%= link_to "All Doggies", dogs_path %>
     <%= link_to "All Posts", posts_path %>
-
     <%= yield %>
   </body>
 </html>
