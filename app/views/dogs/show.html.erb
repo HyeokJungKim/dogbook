@@ -1,13 +1,15 @@
 <h1> <%= @dog.name %> </h1>
 <h2> <%= @dog.catchphrase %> </h2>
-<img src=<%= @dog.image_url %>  alt=<%= @dog.name %> >
+<img src=<%= @dog.image_url %>  alt=<%= @dog.name %> />
 
 <h1>Friends</h1>
 <ul>
   <% @dog.buddies.each do |buddy| %>
-    <li>
-      <img src=<%= buddy.image_url %>  alt=<%= buddy.name %> >
+    <li class="friends">
+      <img src=<%= buddy.image_url %>  alt=<%= buddy.name %> />
+      <span>
       <%= link_to buddy.name, buddy %>
+      </span>
     </li>
   <% end %>
 </ul>
