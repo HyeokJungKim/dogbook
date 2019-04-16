@@ -7,9 +7,7 @@
   <% @dog.buddies.each do |buddy| %>
     <li>
       <img src=<%= buddy.image_url %>  alt=<%= buddy.name %> />
-      <span>
       <%= link_to buddy.name, buddy %>
-      </span>
     </li>
   <% end %>
 </ul>
