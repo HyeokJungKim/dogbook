@@ -5,7 +5,7 @@
 <h1>Friends</h1>
 <ul>
   <% @dog.buddies.each do |buddy| %>
-    <li class="friends">
+    <li>
       <img src=<%= buddy.image_url %>  alt=<%= buddy.name %> />
       <span>
       <%= link_to buddy.name, buddy %>
