@@ -5,6 +5,10 @@ class DogsController < ApplicationController
     @dogs = Dog.all
   end
 
+  def show
+    @post = Post.new
+  end
+  
   private
 
   def find_dog

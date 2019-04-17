@@ -1,9 +1,13 @@
-<div class="post-header">
-  <h2> <%= @post.title %> </h2>
-  <p> <%= @post.body %> </p>
-<div>
+<div class="post">
+  <div class="post-header">
+    <h2> <%= @post.title %> </h2>
+    <p> <%= @post.body %> </p>
+  <div>
 
-<p class="post-content">
-  By: <%= link_to @post.dog.name, @post.dog %>
-  Created on: <%= @post.created_at.strftime("%I:%M%p, %m/%d/%Y") %>
-</p>
+  <p class="post-content">
+    By: <%= link_to @post.dog.name, @post.dog %>
+    <span>
+      Created on: <%= @post.created_at.strftime("%I:%M%p, %m/%d/%Y") %>
+    </span>
+  </p>
+</div>
