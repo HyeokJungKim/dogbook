@@ -1,24 +1,53 @@
-# README
+# CSS Fundamentals
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Objectives
+  + Discuss what CSS does and why it is important
+  + Differentiate between inline, internal, and external stylesheets
+  + Understand how to use class, id, and element selectors, and selector order of importance
+  + Demonstrate the use of the box model, floats, clear, positioning, and CSS grid in page layout
+  + Introduce CSS frameworks like Bootstrap and Semantic UI
 
-Things you may want to cover:
+## CSS
 
-* Ruby version
+**CSS** - Cascading Style Sheets
+Good CSS vs. Bad CSS
 
-* System dependencies
+## Stylesheets and Selectors
 
-* Configuration
+How do we add CSS to our HTML page?
 
-* Database creation
+Types of CSS selectors
 
-* Database initialization
+Using multiple selectors
 
-* How to run the test suite
+## The Box Model
 
-* Services (job queues, cache servers, search engines, etc.)
+4 elements of the box model:
 
-* Deployment instructions
+(Use Chrome dev tools to explore!)
 
-* ...
+## Layouts & Positioning - Floats & Clear
+
+## Layouts & Positioning - CSS Grid
+
+Grid-based layout system
+Makes it easy to create well-designed and responsive pages
+
+## CSS Frameworks
+
+Do a lot of the CSS work for us
+Semantic UI
+Bootstrap
+
+## Resources
+
+- https://www.awwwards.com/
+- https://www.epicurrence.com/
+- https://flukeout.github.io/
+- https://flexboxfroggy.com/
+- http://cssgridgarden.com/
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- https://css-tricks.com/snippets/css/complete-guide-grid/
+- https://tympanus.net/codrops/css_reference/
+- https://getbootstrap.com/
+- https://semantic-ui.com/
