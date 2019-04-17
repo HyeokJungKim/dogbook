@@ -1,7 +1,9 @@
-<h2> <%= @post.title %> </h2>
-<p> <%= @post.body %> </p>
+<div class="post-header">
+  <h2> <%= @post.title %> </h2>
+  <p> <%= @post.body %> </p>
+<div>
 
-<p>
+<p class="post-content">
   By: <%= link_to @post.dog.name, @post.dog %>
   Created on: <%= @post.created_at.strftime("%I:%M%p, %m/%d/%Y") %>
 </p>

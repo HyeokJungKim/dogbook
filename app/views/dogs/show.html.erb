@@ -1,22 +1,28 @@
-<img src=<%= @dog.image_url %>  alt=<%= @dog.name %> />
-<h2> <%= @dog.name %> </h2>
-<h3> <%= @dog.catchphrase %> </h3>
+<div id="main-info">
+  <img src=<%= @dog.image_url %>  alt=<%= @dog.name %> />
+  <h2> <%= @dog.name %> </h2>
+  <h3> <%= @dog.catchphrase %> </h3>
+</div>
 
-<h3>Friends</h3>
-<ul>
+
+<ul class="buddies-container">
+  <h3>Friends</h3>
+
   <% @dog.buddies.each do |buddy| %>
-    <li>
+    <li class="buddy">
       <img src=<%= buddy.image_url %>  alt=<%= buddy.name %> />
-      <%= link_to buddy.name, buddy %>
+      <span class="buddy-link"><%= link_to buddy.name, buddy %></span>
     </li>
   <% end %>
+
 </ul>
 
-<h3>Posts</h3>
 
-<ul>
+<ul class="posts-container">
+  <h3>Posts</h3>
+
   <% @dog.posts.each do |post| %>
-    <li>
+    <li class="post-link">
       <%= link_to post.title, post %>
     </li>
   <% end %>
