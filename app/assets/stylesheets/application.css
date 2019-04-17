@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+
+body{
+  background-color: peachpuff;
+}
+
+li {
+  list-style: none;
+}
+
+.ui.item.menu, .ui.item.menu .item.dog{
+  width: 50%;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+}

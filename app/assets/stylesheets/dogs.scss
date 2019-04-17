@@ -1,3 +1,91 @@
-// Place all the styles related to the Dogs controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.main-container{
+  float: left;
+  box-sizing: border-box;
+  width: 70%;
+  padding: 10px;
+  text-align: center;
+}
+
+.sidebar{
+  float: right;
+  box-sizing: border-box;
+  width: 30%;
+}
+
+#main-info img{
+  height: 25em;
+  border-radius: 50%;
+}
+
+#main-info img:hover{
+  height: 25em;
+}
+
+
+#main-info{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.buddies-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
+  grid-gap: .5em;
+}
+//
+// .buddy{
+//   width: 10em;
+// }
+
+.buddy img{
+  width: 100%;
+  border-radius: 5%;
+}
+
+#new-form {
+  text-align: center;
+}
+
+#new-form label{
+  display: block;
+}
+
+#new-form input{
+  width: 80%;
+}
+
+#new-form textarea{
+  height: 5em;
+  width: 80%;
+}
+
+#new-form input[type="submit"]{
+  background-color: #333;
+  width: 50%;
+  margin: auto;
+  display: block;
+  color: red;
+}
+
+#main-info h2:hover{
+  text-transform: uppercase;
+  background: red;
+  background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+  background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+  background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+  background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 10em;
+}
+
+
+
+
+
+
+
+
+
+//
