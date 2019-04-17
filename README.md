@@ -39,6 +39,11 @@ Do a lot of the CSS work for us
 Semantic UI
 Bootstrap
 
+```HTML
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+```
+
 ## Resources
 
 - https://www.awwwards.com/
